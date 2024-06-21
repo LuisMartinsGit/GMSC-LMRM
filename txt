@@ -1,0 +1,45 @@
+
+
+Step 1 - DAta ingestion
+
+Step 2 - Sanitization
+    
+    0 - Remove index column and fill NAs
+    1 - Detect and remove outliers (messes up the training!!!!!)
+    2 - Correct for skew
+    3 - Replace missing data with 0
+
+Step 3 - Transformation
+    
+    1 - feature engineering
+    2 - drop unimportant features
+    3 - Scaling
+
+Step 4 - Define Model
+
+    1 - Boosted trees
+    2 - 3 layer NN with dropout
+
+Step 5
+
+    1 - Probability of defaults by decils.
+
+Step 6
+
+    1 - Boosted trees          - SHAP 
+    2 - 3 layer NN with dropout- LIME 
+
+
+QUESTIONS:
+
+1 - Follow ipynb doc
+
+2 - Why AUC?   (Follow ipynb)
+
+3 - Dataset analysis (follow ipynb)
+
+4 - Probability of defaults by decils. -> Indicates model can distiguish well between risk profiles, allowing dor customer segmentation. 
+
+5 - XAI model (Follow ipynb)
+
+6 - Best Score: 0.86638 ()
