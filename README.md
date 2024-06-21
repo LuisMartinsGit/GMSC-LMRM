@@ -1,3 +1,1 @@
-# GMSC
-
-weeee# GMSC-LMRM
+GMSC-LMRM
